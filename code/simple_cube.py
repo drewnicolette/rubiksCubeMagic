@@ -1,19 +1,3 @@
-"""
-A Simple Interactive Cube
--------------------------
-This script plots a multi-color cube in three dimensions with perspective,
-and allows the cube to be manipulated using either the mouse or the arrow
-keys.
-
-The rotations are based on quaternions: unfortunately there is no quaternion
-algebra built-in to numpy or scipy, so we create a basic quaternion class to
-accomplish this.
-
-The cube is rendered using the zorder argument of any matplotlib object.  By
-judiciously setting the zorder depending on the orientation, we can make the
-cube appear to be solid.
-"""
-
 import numpy as np
 from matplotlib.axes import Axes
 from matplotlib.collections import PolyCollection
