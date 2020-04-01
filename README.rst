@@ -9,5 +9,6 @@ Controls
   at a depth i (e.g. for a 3x3 cube, holding "1" and pressing "L" will turn
   the center slab).
 
-
-/code/cube.py - Pulled from David W. Hogg (NYU) repository
+Copyright
+********
+- **/code/cube.py** - Pulled from David W. Hogg (NYU) repository
